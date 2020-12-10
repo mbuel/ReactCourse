@@ -12,7 +12,15 @@
     height: 550px;
   }
 
+  .images {
+    padding-left: 50%;
+    padding-bottom: 25px;
+    height: 240px;
+    width: 240px;
+  }
+
   #first-section {
+    list-style-type: circle;
     background-color: lightgreen;
   }
 
@@ -36,12 +44,26 @@
   </head>
   <body style="margin:0">
     <ul id="topbar">
-      <li class="menu-item"><a class="" href="/index.html#first-section">Home</a></li>
-      <li class="menu-item"><a class="" href="/index.html#second-section">About</a></li>
-      <li class="menu-item"><a class="" href="/index.html#third-section">Contact</a></li>
+      <li class="menu-item"><a class="" href="#first-section">Index</a></li>
+      <li class="menu-item"><a class="" href="#second-section">Food</a></li>
+      <li class="menu-item"><a class="" href="#third-section">About</a></li>
     </ul>
     <div id="first-section" class="section">
-      <h1 class="section-heading">About Section</h1>
+      <h1 class="section-heading">Top 5 Favorite Foods</h1>
+      
+        <ul>
+          <li><a href="#ChickenCurry"> Chicken Curry</a></li>
+          <li><a href="#Lasagne"> Lasagne</a></li>
+          <li><a href="#Latke">Latke</a> </li>
+          <li><a href="#Ravioli">Ravioli</a> </li>
+          <li><a href="#VeggiePizza">Veggie Pizza</a> </li>
+        </ul>
+      <img id='ChickenCurry' class='images' src="res/chickenCurry.jpg" alt="">
+      <img id='Lasagne' class='images' src="res/Lasagne.jpg" alt="">
+      <img id='Latke' class='images' src="res/latke.jpg" alt="">
+      <img id='Ravioli' class='images' src="res/ravioli.jpg" alt="">
+      <img id='VeggiePizza' class='images' src="res/VeggiePizza.jpg" alt="">
+
     </div>
     <div id="second-section" class="section">
       <h1 class="section-heading">About Section</h1>
